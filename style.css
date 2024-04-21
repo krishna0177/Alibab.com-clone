@@ -1,0 +1,334 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+
+     
+}
+html,body{
+     height: 100%;
+     width: 100%;
+}
+.nav-heading{
+     -webkit-text-size-adjust: 100%;
+     font-feature-settings: normal;
+     font-variation-settings: normal;
+     tab-size: 4;
+     --floorWrapperWidth: 1440px;
+     -webkit-font-smoothing: auto;
+     font-family: Inter,SF Pro Text,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,PingFang SC,Microsoft YaHei!important;
+     line-height: inherit;
+     border: 0 solid #e5e7eb;
+     --tw-border-spacing-x: 0;
+     --tw-border-spacing-y: 0;
+     --tw-translate-x: 0;
+     --tw-translate-y: 0;
+     --tw-rotate: 0;
+     --tw-skew-x: 0;
+     --tw-skew-y: 0;
+     --tw-scale-x: 1;
+     --tw-scale-y: 1;
+     --tw-pan-x: ;
+     --tw-pan-y: ;
+     --tw-pinch-zoom: ;
+     --tw-scroll-snap-strictness: proximity;
+     --tw-gradient-from-position: ;
+     --tw-gradient-via-position: ;
+     --tw-gradient-to-position: ;
+     --tw-ordinal: ;
+     --tw-slashed-zero: ;
+     --tw-numeric-figure: ;
+     --tw-numeric-spacing: ;
+     --tw-numeric-fraction: ;
+     --tw-ring-inset: ;
+     --tw-ring-offset-width: 0px;
+     --tw-ring-offset-color: #fff;
+     --tw-ring-color: rgba(59,130,246,.5);
+     --tw-ring-offset-shadow: 0 0 #0000;
+     --tw-ring-shadow: 0 0 #0000;
+     --tw-shadow: 0 0 #0000;
+     --tw-shadow-colored: 0 0 #0000;
+     --tw-blur: ;
+     --tw-brightness: ;
+     --tw-contrast: ;
+     --tw-grayscale: ;
+     --tw-hue-rotate: ;
+     --tw-invert: ;
+     --tw-saturate: ;
+     --tw-sepia: ;
+     --tw-drop-shadow: ;
+     --tw-backdrop-blur: ;
+     --tw-backdrop-brightness: ;
+     --tw-backdrop-contrast: ;
+     --tw-backdrop-grayscale: ;
+     --tw-backdrop-hue-rotate: ;
+     --tw-backdrop-invert: ;
+     --tw-backdrop-opacity: ;
+     --tw-backdrop-saturate: ;
+     --tw-backdrop-sepia: ;
+     box-sizing: border-box;
+     padding: 0;
+     background-color: #111110;
+     background-position: 50%;
+     background-repeat: no-repeat;
+     background-size: 1920px 624px;
+     height: 624px;
+     margin: 0 auto;
+     position: relative;
+     width: 100%;
+     background-image: url("//s.alicdn.com/@img/imgextra/i4/O1CN01ustqhi1Tz44lu4arh_!!6000000002452-0-tps-3840-1248.jpg_q60.jpg");
+     
+     background-size: cover;
+     object-fit: cover;
+     color: white;
+}
+
+.navbar{
+     height: 10vh;
+     width: 100%;
+
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 2% 0 2%;
+}
+.logo img{
+     width: 240px;
+     
+}
+.nav-iteam{
+     width: 30%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+}
+.nav-iteam {
+     
+}
+.part-1{
+     font-size: 1.2vw;
+}
+.part-2{
+     font-size: 1.2vw;
+}
+.nav-iteam button{
+     height: 90%;
+     padding: 10px 30px;
+     text-align: center;
+     text-align: center;
+     border-radius: 20px;
+     border: none;
+     background: #ea980a;
+     font-size: 1.2rem;
+}
+.navbar-2{
+     height: 4vh;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 2% 0 2%;
+     color: white;
+
+}
+.nav2-part1{
+     height: 100%;
+     width: 80%;
+     display: flex;
+     align-items: center;
+}
+.nav2-part1 a{
+     text-decoration: none;
+     margin-right: 20px;
+     font-size: 1vw;
+     color: white;
+     
+
+}
+.nav2-part2 {
+     height: 100%;
+     width: 50%;
+     display: flex;
+     align-items: center;
+     padding-left: 110px;
+}
+.nav2-part2 a{
+     text-decoration: none;
+     font-size: 1vw;
+     margin-right: 20px;
+     color: white;
+     
+}
+.section-1{
+     height: 45vh;
+     width: 100%;
+     padding: 0 2% 0 2%;
+     margin-top: 15vh;
+
+     
+}
+.section-1 h1{
+     font-size: 2.9rem;
+     margin-top: 3vh;
+     margin-bottom: 3vh;
+     font-weight: 400;
+
+}
+.button{
+     height: 7vh;
+     width: 50vw;
+     background-color: #D04A0A;
+     display: flex;
+     background-color: #FFFFFF;
+     display: inline-block;
+     border-radius: 30px;
+     border: none;
+     
+}
+.section-1 p{
+     font-size: 20px;
+     font-weight: 600;
+}
+#input{
+     height: 100%;
+     border: none;
+     font-size: 20px;
+     background: none;
+     padding-left: 20px;
+     padding-right: 42%;
+     color: black;
+     
+     
+}
+#camera{
+     
+     font-size: 30px;
+     text-align: center;
+     margin-right: 2vh;
+     background: black;
+}
+#btn{
+     height: 90%;
+     padding: 0px 22px 0px 22px;
+     font-size: 16px;
+     background-color: #FF6A00;
+     border-radius: 30px;
+     border: none;
+
+     
+    
+}
+#btn i{
+    padding-right: 2px;
+    background: none; 
+}
+.section-2{
+     margin-top: 5vh;
+}
+.section-2 span{
+     font-size: 1rem;
+     color: white;
+}
+
+.section-2 a{
+     font-size: 1rem;
+     margin: 0px 10px 0px 10px;
+     text-decoration: none;
+     border: 1px solid white;
+     padding: 8px 15px;
+     border-radius: 30px;
+     color: white;
+}
+.container-1{
+     height: 55vh;
+     width: 100%;
+     background:#3A190B ;
+     padding: 50px 20px;
+     display: flex;
+     justify-content: space-between;
+}
+.first-con{
+     height: 100%;
+     width: 25%;
+     background: red;
+     margin: 0px 20px;
+     border-radius: 10px;
+     background: #402013;
+     padding: 20px 20px 20px;
+
+
+}
+.first-con:hover{
+     background-color:#52220A ;
+     
+
+}
+.first-con:hover img{
+     color: #F76809;
+
+}
+
+
+.first-con img{
+     height: 50px;
+     width: 50px;
+     padding: 10px;
+     border-radius: 50%;
+     background: #60331D;
+
+}
+.first-con h3{
+     font-size: 2rem;
+     margin: 3vh 0vh;
+     color: #ffffff;
+     opacity: 6;
+
+}
+.first-con p{
+     font-size: 1.2rem;
+     color: #ffffff;
+     opacity: 6;
+
+}
+
+.container-2{
+     height: 100vh;
+     width: 100%;
+
+}
+.elem{
+     height: 40vh;
+     width: 95vw;
+     margin: 8% 2% 8% 2%;
+     display: flex;
+     background-color: red;
+     justify-content: space-between;
+}
+.elem-1 h2{
+     width: 60vw;
+     font-size:3.2rem;
+}
+.elem-2{
+     width: 30vw;
+     display: flex;
+}
+.prod-el1{
+     margin: 30px;
+}
+.prod-el1 h3{
+     font-size: 2.2rem;
+}
+.prod-el1 p{
+     font-size: 1.5rem;
+}
+
+.prod-el2{
+     margin: 25px;
+}
+.prod-el2 h3{
+     font-size: 2.2rem;
+}
+.prod-el2 p{
+     font-size: 1.5rem;
+}
